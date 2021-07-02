@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher2_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".activitymodul1"></activity>
+        <activity android:name=".modul2_1" />
+        <activity android:name=".modul2_2" />
+        <activity android:name=".modul2_3" />
+        <activity android:name=".modul2_4" />
+        <activity android:name=".part5" />
+        <activity android:name=".part4" />
+        <activity android:name=".part3" />
+        <activity android:name=".part2" />
+        <activity android:name=".part1" />
+        <activity android:name=".cpp1" />
+        <activity android:name=".cpp2" />
+        <activity android:name=".cpp3" />
+        <activity android:name=".erdc1" />
+        <activity android:name=".erdc2" />
+        <activity android:name=".erdc3" />
+        <activity android:name=".ckd1" />
+        <activity android:name=".ckd2" />
+        <activity android:name=".activityckd1" />
+        <activity android:name=".activityerdc1" />
+        <activity android:name=".activitycpp1" />
+        <activity android:name=".activitypart1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
