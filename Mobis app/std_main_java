@@ -39,16 +39,16 @@ public class std_main extends AppCompatActivity {
         butt3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int2 = new Intent(std_main.this, std_pda.class);
-                startActivity(int2);
+                Intent int3 = new Intent(std_main.this, std_pda.class);
+                startActivity(int3);
             }
 
         });
         butt4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent int2 = new Intent(std_main.this, std_video.class);
-                startActivity(int2);
+                Intent int4 = new Intent(std_main.this, std_video.class);
+                startActivity(int4);
             }
 
         });
